@@ -5,7 +5,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-	/** prints the text */
+	/* prints the text */
 {
 
 	puts("\"Programming is like building a multilingual puzzle");
