@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _strspn - get the length of a prefix substring
+ * _strspn - Entry point
  * @s: input value
  * @accept: input value
  * Return: Always 0
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
 
@@ -19,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 
 		for (n = 0; accept[n] != '\0'; n++)
 		{
-			if (accept[n] == s[n])
+			if (accept[n] == s[j])
 			{
 				value++;
 				check = 1;
