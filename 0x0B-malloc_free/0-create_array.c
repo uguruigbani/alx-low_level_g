@@ -7,7 +7,7 @@
  * and initializes it with a specific char
  * @size: This is the length of the array
  * @c: char c
- * Return: Always 0 successful
+ * Return: An Array Initialized with the specific char
  */
 char *create_array(unsigned int size, char c)
 {
