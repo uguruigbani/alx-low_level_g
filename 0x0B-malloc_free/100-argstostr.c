@@ -1,5 +1,5 @@
-#include "holberton.h"
-
+#include "main.h"
+#include <stdlib.h>
 /**
  * _strcat - Concat string, src appended to dest
  *
